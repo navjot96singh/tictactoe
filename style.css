@@ -1,5 +1,31 @@
 table {
+    width: 400px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td {
+    width: 134px;
+    height: 134px;
+}
+
+table {
     border-collapse: collapse;
+}
+
+td {
+    cursor: pointer;
+    transition: all 225ms ease-in-out;
+}
+
+td:hover {
+    box-shadow: inset 1px 1px 55px 3px #7e7e7e;
+    transition: all 225ms ease-in-out;
+    border-radius: 20%;
 }
 
 table td {
