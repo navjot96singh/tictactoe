@@ -47,3 +47,23 @@ table tr:last-child td {
 table tr td:last-child {
     border-right: 0;
 }
+
+td {
+    position: relative;
+}
+
+.shape {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 32px;
+    left: 20px;
+}
+
+img {
+    width: 80px;
+}
+
+.d-none {
+    display: none;
+}
