@@ -1,11 +1,35 @@
-table {
-    width: 400px;
-}
-
 body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.player-pannel {
+    display: flex;
+}
+
+.player-pannel div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.player-pannel img {
+    width: 60px;
+    height: 60px;
+    margin-right: 32px;
+}
+
+.player_inactive {
+    opacity: 0.5;
+}
+
+table {
+    width: 400px;
 }
 
 td {
