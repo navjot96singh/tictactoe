@@ -10,5 +10,17 @@ function fillupfield(id) {
     }
 
     fields[id] = CurrentShape;
-    console.log(fields)
+    draw();
+}
+
+function draw() { // to remove the class of current img
+    for (let i = 0; i < fields.length; i++) {
+        let field = fields[i];
+        if (field == 'circle') {
+            document.getElementById('circle-' + i).classList.remove('d-none');
+        }
+        if (field == 'cross') {
+            document.getElementById('cross-' + i).classList.remove('d-none');
+        }
+    }
 }
